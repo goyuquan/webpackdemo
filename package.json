@@ -1,0 +1,27 @@
+{
+  "name": "webpackdeme",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goyuquan/webpackdemo.git"
+  },
+  "author": "guoyuquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goyuquan/webpackdemo/issues"
+  },
+  "homepage": "https://github.com/goyuquan/webpackdemo#readme",
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
