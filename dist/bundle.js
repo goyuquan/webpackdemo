@@ -78,7 +78,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".hello {\\r\\n  color: red;\\r\\n  background: url(\" + escape(__webpack_require__(/*! ./googlelogo.png */ \"./src/googlelogo.png\")) + \") no-repeat;\\r\\n}\\r\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader");
+eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"@font-face {\\r\\n  font-family: 'MyFont';\\r\\n  src:  url(\" + escape(__webpack_require__(/*! ./Font Awesome 5 Brands-Regular-400.otf */ \"./src/Font Awesome 5 Brands-Regular-400.otf\")) + \") format('Brands'),\\r\\n        url(\" + escape(__webpack_require__(/*! ./Font Awesome 5 Free-Regular-400.otf */ \"./src/Font Awesome 5 Free-Regular-400.otf\")) + \") format('Free'),\\r\\n        url(\" + escape(__webpack_require__(/*! ./Font Awesome 5 Free-Solid-900.otf */ \"./src/Font Awesome 5 Free-Solid-900.otf\")) + \") format('Solid');\\r\\n  font-weight: 600;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n.hello {\\r\\n  color: red;\\r\\n  font-family: 'MyFont';\\r\\n  background: url(\" + escape(__webpack_require__(/*! ./googlelogo.png */ \"./src/googlelogo.png\")) + \") no-repeat;\\r\\n}\\r\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -159,6 +159,50 @@ eval("module.exports = function(module) {\r\n\tif (!module.webpackPolyfill) {\r\
 
 /***/ }),
 
+/***/ "./src/Font Awesome 5 Brands-Regular-400.otf":
+/*!***************************************************!*\
+  !*** ./src/Font Awesome 5 Brands-Regular-400.otf ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f061e487f95f9cec4e611037180c0035.otf\";\n\n//# sourceURL=webpack:///./src/Font_Awesome_5_Brands-Regular-400.otf?");
+
+/***/ }),
+
+/***/ "./src/Font Awesome 5 Free-Regular-400.otf":
+/*!*************************************************!*\
+  !*** ./src/Font Awesome 5 Free-Regular-400.otf ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"587ec62e1802be85268ce9c1446712f1.otf\";\n\n//# sourceURL=webpack:///./src/Font_Awesome_5_Free-Regular-400.otf?");
+
+/***/ }),
+
+/***/ "./src/Font Awesome 5 Free-Solid-900.otf":
+/*!***********************************************!*\
+  !*** ./src/Font Awesome 5 Free-Solid-900.otf ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2266860b9ea192ed222210c565f87972.otf\";\n\n//# sourceURL=webpack:///./src/Font_Awesome_5_Free-Solid-900.otf?");
+
+/***/ }),
+
+/***/ "./src/data.xml":
+/*!**********************!*\
+  !*** ./src/data.xml ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = {\"note\":{\"to\":[\"Mary\"],\"from\":[\"John\"],\"heading\":[\"Reminder\"],\"body\":[\"Call Cindy on Tuesday\"]}}\n\n//# sourceURL=webpack:///./src/data.xml?");
+
+/***/ }),
+
 /***/ "./src/googlelogo.png":
 /*!****************************!*\
   !*** ./src/googlelogo.png ***!
@@ -178,7 +222,7 @@ eval("module.exports = __webpack_require__.p + \"8d2b7f3d00f50b8aebb7d1c002c64ca
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _googlelogo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./googlelogo.png */ \"./src/googlelogo.png\");\n/* harmony import */ var _googlelogo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_googlelogo_png__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nfunction component() {\r\n  var element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');\r\n  element.classList.add('hello');\r\n\r\n  var myIcon = new Image();\r\n  myIcon.src = _googlelogo_png__WEBPACK_IMPORTED_MODULE_2___default.a;\r\n\r\n  element.appendChild(myIcon);\r\n\r\n  return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _googlelogo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./googlelogo.png */ \"./src/googlelogo.png\");\n/* harmony import */ var _googlelogo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_googlelogo_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data.xml */ \"./src/data.xml\");\n/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\r\nfunction component() {\r\n  var element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');\r\n  element.classList.add('hello');\r\n\r\n  var myIcon = new Image();\r\n  myIcon.src = _googlelogo_png__WEBPACK_IMPORTED_MODULE_2___default.a;\r\n\r\n  element.appendChild(myIcon);\r\n\r\n  console.log(_data_xml__WEBPACK_IMPORTED_MODULE_3___default.a);\r\n\r\n  return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

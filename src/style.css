@@ -1,4 +1,14 @@
+@font-face {
+  font-family: 'MyFont';
+  src:  url('./Font Awesome 5 Brands-Regular-400.otf') format('Brands'),
+        url('./Font Awesome 5 Free-Regular-400.otf') format('Free'),
+        url('./Font Awesome 5 Free-Solid-900.otf') format('Solid');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
   color: red;
+  font-family: 'MyFont';
   background: url('./googlelogo.png') no-repeat;
 }
